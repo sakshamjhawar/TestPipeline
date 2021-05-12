@@ -13,6 +13,6 @@ phases:
       # copy the contents of /build to S3
       - echo Post build complete 
       
-  artifacts:
+artifacts:
   files:
     - '**/*'
